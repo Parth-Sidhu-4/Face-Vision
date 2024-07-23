@@ -43,7 +43,7 @@ Face-Vision is a Python-based tool for detecting faces in images and videos usin
 
 1. Run the script:
     ```bash
-    python face_vision.py
+    python face_detection.py
     ```
 
 2. A file dialog will appear. Choose an image or video file to process.
@@ -84,7 +84,7 @@ Here's an example of face detection on a video:
 
 ## Code Overview
 
-- **`face_vision.py`**: Main script that handles file selection, model loading, face detection, and result display.
+- **`face_detection.py`**: Main script that handles file selection, model loading, face detection, and result display.
 - **`choose_file()`**: Opens a file dialog to select images or videos.
 - **`load_face_detection_model()`**: Loads the pre-trained face detection model.
 - **`detect_faces()`**: Applies face detection to an image.
