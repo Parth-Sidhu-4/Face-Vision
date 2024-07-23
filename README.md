@@ -99,7 +99,6 @@ This project is licensed under the Boost Software License 1.0. See the [LICENSE]
 ## Acknowledgements
 
 - **OpenCV**: For providing the tools and libraries used for face detection.
-- **BTS**: For the image and video samples used in this project.
-- **HYBE Labels**: For their role in promoting BTS's content.
+- **BTS and HYBE Labels**: For the image and video samples used in this project.
 - **freeconvert.com**: For compressing the video files for GitHub upload.
 
