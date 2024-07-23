@@ -68,6 +68,20 @@ To illustrate how Face-Vision works, here's an example of face detection on an i
 
 In the "Detected Faces" image, rectangles are drawn around the detected faces.
 
+### Video Example
+
+Here's an example of face detection on a video:
+
+**Original Video Sample:**
+
+![Original Video](https://github.com/Parth-Sidhu-4/Face-Vision/raw/main/original_video.mp4)
+
+**Processed Video Sample:**
+
+![Processed Video](https://github.com/Parth-Sidhu-4/Face-Vision/raw/main/detected_faces_video.avi)
+
+*Note: The video file was compressed using [freeconvert.com](https://www.freeconvert.com) for easier upload on GitHub.*
+
 ## Code Overview
 
 - **`face_vision.py`**: Main script that handles file selection, model loading, face detection, and result display.
@@ -78,15 +92,14 @@ In the "Detected Faces" image, rectangles are drawn around the detected faces.
 - **`process_image()`**: Handles face detection and display for images.
 - **`process_video()`**: Handles face detection and processing for videos.
 
-## Contributing
-
-Contributions are welcome! Please open an issue or submit a pull request with any improvements or bug fixes.
-
 ## License
 
 This project is licensed under the Boost Software License 1.0. See the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgements
 
-- OpenCV: For providing the tools and libraries used for face detection.
-- The authors of the pre-trained model for making face detection accessible.
+- **OpenCV**: For providing the tools and libraries used for face detection.
+- **BTS**: For the image and video samples used in this project.
+- **HYBE Labels**: For their role in promoting BTS's content.
+- **freeconvert.com**: For compressing the video files for GitHub upload.
+
