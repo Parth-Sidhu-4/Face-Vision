@@ -60,11 +60,11 @@ To illustrate how Face-Vision works, here's an example of face detection on an i
 
 **Original Image:**
 
-![Original Image](examples/original_image.jpg)
+![Original Image](original_image.jpg)
 
 **Detected Faces:**
 
-![Detected Faces](examples/detected_faces.jpg)
+![Detected Faces](detected_faces.jpg)
 
 In the "Detected Faces" image, rectangles are drawn around the detected faces.
 
