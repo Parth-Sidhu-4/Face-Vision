@@ -12,7 +12,7 @@ Face-Vision is a Python-based tool for detecting faces in images and videos usin
 ## Requirements
 
 - Python 3.x
-- OpenCV (`cv2`): Install using `pip install opencv-python`
+- OpenCV (`cv2`): Install using `pip install opencv-contrib-python`
 - Tkinter: Usually included with Python installations
 - Numpy: Install using `pip install numpy`
 
