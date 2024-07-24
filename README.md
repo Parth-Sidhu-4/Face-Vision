@@ -20,7 +20,7 @@ Face-Vision is a Python-based tool for detecting faces in images and videos usin
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/Face-Vision.git
+    git clone https://github.com/Parth-Sidhu-4/Face-Vision.git
     ```
 
 2. Navigate to the project directory:
@@ -30,7 +30,10 @@ Face-Vision is a Python-based tool for detecting faces in images and videos usin
 
 3. Install the required Python packages:
     ```bash
-    pip install opencv-python numpy
+    pip install opencv-contrib-python
+    ```
+    ```bash
+    pip install numpy
     ```
 
 4. Download the pre-trained face detection model files:
