@@ -79,7 +79,7 @@ def process_image(image_path):
     faces = detect_faces(model, image)
     draw_faces_on_image(image, faces)
 
-    output_file = "faces_detected.jpg"
+    output_file = "detected_faces.jpg"
     cv2.imwrite(output_file, image)
 
     cv2.namedWindow("Faces Detected", cv2.WINDOW_NORMAL)
@@ -105,7 +105,7 @@ def process_video(video_path):
     fps = video_capture.get(cv2.CAP_PROP_FPS)
 
     fourcc = cv2.VideoWriter_fourcc(*"XVID")
-    output_file = "faces_detected_video.avi"
+    output_file = "detected_faces_video.avi"
     video_writer = cv2.VideoWriter(
         output_file, fourcc, fps, (frame_width, frame_height)
     )
